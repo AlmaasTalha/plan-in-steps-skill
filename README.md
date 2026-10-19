@@ -167,6 +167,13 @@ like.
 **Will it build the thing too?** No, it only plans. Once the plan is ready, your AI can
 build from it, step by step.
 
+## Privacy
+
+Together We Plan is a set of instructions. It has no server, collects nothing, sends nothing
+anywhere and keeps nothing. Your plan stays in your own project folder, or in your chat if
+your AI can't save files. Any web searches are made by your own AI agent, under that agent's
+own privacy terms.
+
 ## License
 
 MIT. See [LICENSE](LICENSE).

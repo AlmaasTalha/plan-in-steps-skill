@@ -9,5 +9,6 @@
   "homepage": "https://github.com/AlmaasTalha/together-we-plan",
   "repository": "https://github.com/AlmaasTalha/together-we-plan",
   "license": "MIT",
+  "privacyPolicyUrl": "https://github.com/AlmaasTalha/together-we-plan#privacy",
   "keywords": ["planning", "non-technical", "vibe-coding", "decision-making", "agent-skills"]
 }
