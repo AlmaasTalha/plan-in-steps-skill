@@ -13,8 +13,8 @@ support the open [Agent Skills](https://github.com/agentskills/agentskills) form
 ## What is a skill?
 
 A skill is a short set of instructions your AI agent reads when it needs them, like a
-recipe. This one is a single file, [`SKILL.md`](SKILL.md). There is no app to install, no
-code to run and no account to make.
+recipe. This one is a single file, [`SKILL.md`](skills/together-we-plan/SKILL.md). There is
+no app to install, no code to run and no account to make.
 
 ## Who is it for?
 
@@ -83,7 +83,7 @@ flowchart LR
 
 **A written plan, in your own language.** It's saved as a file in your project
 (`docs/plans/<topic>.md`) or in a folder you choose, and it holds only what you said yes to.
-A short example:
+If your project uses git, the finished plan is also committed there. A short example:
 
 ```markdown
 # Custom cake orders — plan
@@ -132,8 +132,9 @@ gives you the plan as one block to save and paste back in.
 
 ## Install
 
-Make a folder named `together-we-plan` and put [`SKILL.md`](SKILL.md) inside it. Where the
-folder goes depends on your AI agent:
+Make a folder named `together-we-plan` and put
+[`SKILL.md`](skills/together-we-plan/SKILL.md) inside it. Where the folder goes depends on
+your AI agent:
 
 | Agent | For all your projects | For one project |
 |---|---|---|
@@ -148,7 +149,7 @@ Quick install for Claude Code, all projects (paste into a terminal):
 ```bash
 mkdir -p ~/.claude/skills/together-we-plan
 curl -o ~/.claude/skills/together-we-plan/SKILL.md \
-  https://raw.githubusercontent.com/AlmaasTalha/together-we-plan/main/SKILL.md
+  https://raw.githubusercontent.com/AlmaasTalha/together-we-plan/main/skills/together-we-plan/SKILL.md
 ```
 
 For another agent, change the folder path in both lines.

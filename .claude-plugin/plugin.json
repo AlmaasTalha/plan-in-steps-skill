@@ -1,0 +1,13 @@
+{
+  "name": "together-we-plan",
+  "displayName": "Together We Plan",
+  "description": "Plan anything new with your AI, one decision at a time, in plain words, before anything gets built.",
+  "author": {
+    "name": "AlmaasTalha",
+    "url": "https://github.com/AlmaasTalha"
+  },
+  "homepage": "https://github.com/AlmaasTalha/together-we-plan",
+  "repository": "https://github.com/AlmaasTalha/together-we-plan",
+  "license": "MIT",
+  "keywords": ["planning", "non-technical", "vibe-coding", "decision-making", "agent-skills"]
+}
