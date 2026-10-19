@@ -144,15 +144,8 @@ your AI agent:
 | Claude.ai | Upload it as a custom skill. | |
 | Other agents | Check where your agent loads skills from. Many read `.agents/skills/`. | |
 
-Quick install for Claude Code, all projects (paste into a terminal):
-
-```bash
-mkdir -p ~/.claude/skills/together-we-plan
-curl -o ~/.claude/skills/together-we-plan/SKILL.md \
-  https://raw.githubusercontent.com/AlmaasTalha/together-we-plan/main/skills/together-we-plan/SKILL.md
-```
-
-For another agent, change the folder path in both lines.
+To download it, open [`SKILL.md`](skills/together-we-plan/SKILL.md) and click the download
+button (**Download raw file**) at the top right of the file.
 
 ## What you need
 
